@@ -1,0 +1,39 @@
+/* body{
+    background-color: aqua;
+} */
+
+/* h2{
+    background-color: tomato;
+    color: aliceblue;
+} */
+
+h2,h3{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+#heading2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+div + p{
+    background-color: brown;
+    font-size: xx-large;
+    color: aliceblue;
+
+}
+
+p:hover {
+    background-color:bisque;
+    font-size: xx-large;
+    color: rgb(30, 34, 36);
+}
+
+p::selection{
+    background-color: cadetblue;
+}
+
+p:nth-child(2){
+    background-color: blue;
+}
