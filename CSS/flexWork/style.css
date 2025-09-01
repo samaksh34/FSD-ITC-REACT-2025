@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    background-color: rgb(94, 88, 88);
+    border: 1px solid brown;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* gap: 10px; */
+}
+
+.child1{
+    height: 300px;
+    width: 300px;
+    background-color: lightcoral;
+   
+}
+.child2{
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    order: 1;
+
+}
+.child3{
+    height: 300px;
+    width: 300px;
+    background-color: lightgreen;
+}
+.child4{
+    height: 300px;
+    width: 300px;
+    background-color: lightyellow;
+}
